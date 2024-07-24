@@ -1,0 +1,127 @@
+@media (max-width: 1028px) {
+  li {
+    font-size: 30px;
+  }
+  .about .row {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #skill {
+    width: 100%;
+  }
+  #skill .row {
+    margin: 0 auto;
+  }
+  #skill .row .col-xl-3 {
+    width: 100%;
+  }
+  #skill .row .col-xl-3 .card {
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  .section-title p {
+    font-size: 1rem;
+  }
+  .resume-title {
+    font-size: 1.5rem;
+  }
+  .resume-item h4 {
+    font-size: 1.3rem;
+  }
+  .resume-item h5 {
+    font-size: 1rem;
+  }
+  .resume-item p {
+    font-size: 0.9rem;
+  }
+  .resume-item ul li {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1029px) {
+  #resume {
+    padding: 100px 0;
+  }
+  .section-title h2 {
+    font-size: 3rem;
+  }
+  .section-title p {
+    font-size: 1.2rem;
+  }
+  .resume-title {
+    font-size: 2.5rem;
+  }
+  .resume-item h4 {
+    font-size: 1.8rem;
+  }
+  .resume-item h5 {
+    font-size: 1.5rem;
+  }
+  .resume-item p {
+    font-size: 1.2rem;
+  }
+  .resume-item ul li {
+    font-size: 1.2rem;
+  }
+}
+/* For screens between 768px and 1028px */
+@media (min-width: 768px) and (max-width: 1028px) {
+  #resume {
+    padding: 60px 0;
+  }
+  .section-title h2 {
+    font-size: 2.2rem;
+  }
+  .section-title p {
+    font-size: 1rem;
+  }
+  .resume-title {
+    font-size: 1.8rem;
+  }
+  .resume-item h4 {
+    font-size: 1.3rem;
+  }
+  .resume-item h5 {
+    font-size: 1.1rem;
+  }
+  .resume-item p {
+    font-size: 0.9rem;
+  }
+  .resume-item ul li {
+    font-size: 0.9rem;
+  }
+}
+/* For screens narrower than 768px */
+@media (max-width: 767px) {
+  #resume {
+    padding: 40px 0;
+  }
+  .section-title h2 {
+    font-size: 0.8rem;
+  }
+  .section-title p {
+    font-size: 0.9rem;
+  }
+  .resume-title {
+    font-size: 0.5rem;
+  }
+  .resume-item h4 {
+    font-size: 1.1rem;
+  }
+  .resume-item h5 {
+    font-size: 0.9rem;
+  }
+  .resume-item p {
+    font-size: 0.8rem;
+  }
+  .resume-item ul li {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */

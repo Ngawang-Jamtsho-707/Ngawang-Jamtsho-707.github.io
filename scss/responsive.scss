@@ -1,0 +1,202 @@
+@media (max-width: 1028px) {
+    li {
+      font-size: 30px;
+    }
+
+    .about{
+     .row{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+    }
+    
+    #skill{
+        width: 100%;
+        .row{
+           margin:  0 auto;
+           .col-xl-3{
+            width: 100%;
+            // border: 1px solid black;
+            .card{
+            border: 1px solid black;
+            margin: 0 auto;
+            }
+        
+           }
+        }
+    }
+  }
+
+  // Media Query for 768px and smaller
+//   @media (max-width: 768px) {
+//     li {
+//       font-size: 25px;
+//     }
+//     .container{
+//         width: 100%;
+//         padding-top: 500px;
+//     }
+//   }
+
+@media (max-width: 768px) {
+    // padding: 40px 0;
+
+    .section-title {
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .resume-title {
+      font-size: 1.5rem;
+    }
+
+    .resume-item {
+      h4 {
+        font-size: 1.3rem;
+      }
+
+      h5 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+
+      ul {
+        li {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+
+@media (min-width: 1029px) {
+    #resume {
+        padding: 100px 0;
+    }
+
+    .section-title {
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .resume-title {
+        font-size: 2.5rem;
+    }
+
+    .resume-item {
+        h4 {
+            font-size: 1.8rem;
+        }
+
+        h5 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        ul {
+            li {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+/* For screens between 768px and 1028px */
+@media (min-width: 768px) and (max-width: 1028px) {
+    #resume {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        h2 {
+            font-size: 2.2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .resume-title {
+        font-size: 1.8rem;
+    }
+
+    .resume-item {
+        h4 {
+            font-size: 1.3rem;
+        }
+
+        h5 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+
+        ul {
+            li {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+/* For screens narrower than 768px */
+@media (max-width: 767px) {
+    #resume {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        h2 {
+            font-size: 0.8rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+    .resume-title {
+        font-size: 0.5rem;
+    }
+
+    .resume-item {
+        h4 {
+            font-size: 1.1rem;
+        }
+
+        h5 {
+            font-size: 0.9rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+
+        ul {
+            li {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
