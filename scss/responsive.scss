@@ -200,3 +200,76 @@
         }
     }
 }
+@media (max-width: 768px) {
+    .hero_section {
+      height: 60vh;
+    }
+  
+    .hero_section .container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .hero_section .hero_img {
+      width: 100%;
+    }
+  
+    .hero_section .hero_img img {
+      width: 90%;
+      height: 40vh;
+      border-radius: 20%;
+    }
+  
+    .hero_section .wrapper {
+      width: 100%;
+    }
+  
+    .hero_section .wrapper h1 {
+      font-size: 40px;
+    }
+  
+    .hero_section .wrapper .static-txt {
+      font-size: 30px;
+    }
+  
+    .hero_section .wrapper .dynamic-txts li {
+      font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .project_section .pro_container {
+      padding: 20px 0; /* Adjust padding for smaller screens */
+    }
+  
+    .pro_heading h1 {
+      font-size: 28px; /* Reduce font size for heading */
+      margin-bottom: 20px; /* Adjust margin to fit smaller screen */
+    }
+  
+    .pro_services {
+      width: 100%; /* Full width for better responsiveness */
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center align items */
+      gap: 10px; /* Reduce gap between items */
+    }
+  
+    .pro_img {
+      width: 100%; /* Make images full width of the container */
+      height: 50vh; /* Maintain aspect ratio */
+      border: 1px solid black; /* Reduce border thickness */
+      box-shadow: 0px 0px 8px; /* Reduce shadow size */
+      border-radius: 5px; /* Smaller border radius */
+      padding-bottom: 10px; /* Adjust padding */
+      
+      &:hover {
+        transform: scale(1); /* Remove scaling effect on hover */
+        background-color: var(--gray); /* Ensure variable is correctly defined */
+        box-shadow: 0px 0px 5px var(--white); /* Adjust shadow on hover */
+      }
+      
+      h2 {
+        font-size: 18px; /* Reduce font size for headings */
+        margin-top: 20px; /* Adjust margin for better spacing */
+      }
+    }
+  }
